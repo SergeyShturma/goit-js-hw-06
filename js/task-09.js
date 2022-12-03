@@ -11,5 +11,5 @@ function onBtnChangeColor() {
   spanEl.textContent = getRandomHexColor();
   console.log(spanEl);
 
-  bodyEl.style.backgroundColor = getRandomHexColor();
+  bodyEl.style.backgroundColor = spanEl.textContent;
 }
